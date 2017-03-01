@@ -18,7 +18,7 @@
     "node-request": "0.0.3",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
-    "podcast-parser": "^1.1.2",
+    "podcast-parser": "chepe263/podcast-parser-1",
     "request": "^2.76.0",
     "serve-favicon": "~2.3.0",
     "xml2js": "^0.4.16"

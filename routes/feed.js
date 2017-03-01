@@ -22,7 +22,10 @@ router.get('/', function(req, res, next) {
 	feedurl = url.format(feedurl);
 	podcastParser.execute(
 		feedurl,
-		{},
+		{
+			'dateAs': 'date'
+			,'timeAs': 'number'
+		},
 		function (err, result) {
 			if (err) {
 				console.log(err);
