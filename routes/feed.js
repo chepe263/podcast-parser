@@ -24,7 +24,7 @@ router.get('/', function(req, res, next) {
 		feedurl,
 		{
 			'dateAs': 'date'
-			,'timeAs': 'number'
+			,'timeAs': 'string'
 		},
 		function (err, result) {
 			if (err) {
